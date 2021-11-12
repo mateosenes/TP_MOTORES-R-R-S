@@ -1,1406 +1,260 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1288; Version 2009; 64bit' Language: 'es' Physical Memory: 16342 MB
+OS: 'Windows 10 Enterprise; OS build 18363.1916; Version 1909; 64bit' Language: 'es' Physical Memory: 7100 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Unity.exe
+C:\Users\Equipo\Desktop\2020.3.3f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Archivos Importantes/Facultad/3° Año/Motores graficos/TP_MOTORES-R-R-S/Trabajo Practico Motores
+C:/Users/Equipo/Documents/GitHub/TP_MOTORES-R-R-S/Trabajo Practico Motores
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51115
-Successfully changed project path to: D:/Archivos Importantes/Facultad/3° Año/Motores graficos/TP_MOTORES-R-R-S/Trabajo Practico Motores
-D:/Archivos Importantes/Facultad/3° Año/Motores graficos/TP_MOTORES-R-R-S/Trabajo Practico Motores
+62252
+Successfully changed project path to: C:/Users/Equipo/Documents/GitHub/TP_MOTORES-R-R-S/Trabajo Practico Motores
+C:/Users/Equipo/Documents/GitHub/TP_MOTORES-R-R-S/Trabajo Practico Motores
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 22.58 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 39.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Archivos Importantes/Facultad/3° Año/Motores graficos/TP_MOTORES-R-R-S/Trabajo Practico Motores/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Equipo/Desktop/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Equipo/Documents/GitHub/TP_MOTORES-R-R-S/Trabajo Practico Motores/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon RX 590 Series (ID=0x67df)
+    Renderer: AMD Radeon(TM) RX Vega 11 Graphics (ID=0x15dd)
     Vendor:   
-    VRAM:     8171 MB
-    Driver:   30.0.13025.1000
+    VRAM:     3550 MB
+    Driver:   27.20.22025.1006
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Mono path[0] = 'C:/Users/Equipo/Desktop/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/Equipo/Desktop/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/Equipo/Desktop/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001914 seconds.
+Register platform support module: C:/Users/Equipo/Desktop/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004063 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 28.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 37.90 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.314 seconds
+- Completed reload, in  1.881 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000715 seconds.
+Registered in 0.001331 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.914 seconds
+- Completed reload, in  1.411 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.40 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1118 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.6 MB.
-System memory in use after: 69.7 MB.
+Unloading 1119 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.5 MB.
+System memory in use after: 69.6 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1575.
-Total: 1.807500 ms (FindLiveObjects: 0.150800 ms CreateObjectMapping: 0.183600 ms MarkObjects: 1.365900 ms  DeleteObjects: 0.105600 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1577.
+Total: 2.551100 ms (FindLiveObjects: 0.268500 ms CreateObjectMapping: 0.045400 ms MarkObjects: 2.121700 ms  DeleteObjects: 0.113500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/detail_dirt.fbx
-  artifactKey: Guid(b8ba516e6cf742f4590f1f464720ec99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/detail_dirt.fbx using Guid(b8ba516e6cf742f4590f1f464720ec99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e107a8c039992c762f9d362aedc71d96') in 0.269045 seconds
-  Import took 0.281080 seconds .
+  path: Assets/Prefabs/Mounted Gun.obj
+  artifactKey: Guid(6a394e1b578bafc4d91e9b78b3cb3d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Mounted Gun.obj using Guid(6a394e1b578bafc4d91e9b78b3cb3d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a098a58d35b4a54739966ee521a895ac') in 0.686770 seconds
+  Import took 0.717902 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Prefabs/snow_tile_straight.fbx
-  artifactKey: Guid(7b43e4f71a0a06246bf6e3d428dd9c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_straight.fbx using Guid(7b43e4f71a0a06246bf6e3d428dd9c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520afdeebf02189301796242d8553f56') in 0.066175 seconds
-  Import took 0.068109 seconds .
+  Time since last request: 25.081134 seconds.
+  path: Assets/Prefabs/Mounted Gun.obj
+  artifactKey: Guid(6a394e1b578bafc4d91e9b78b3cb3d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Mounted Gun.obj using Guid(6a394e1b578bafc4d91e9b78b3cb3d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8cb701609a3d8a6b10e1e18fc36f1a') in 0.184374 seconds
+  Import took 0.208886 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Prefabs/snow_tile_riverFall.fbx
-  artifactKey: Guid(454994b0c99e4fe40b851d19083c4b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_riverFall.fbx using Guid(454994b0c99e4fe40b851d19083c4b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa0394cbae9de75fd2f5a024a1b4c9a') in 0.048956 seconds
-  Import took 0.051348 seconds .
+  Time since last request: 49.821977 seconds.
+  path: Assets/Prefabs/Mounted Gun.obj
+  artifactKey: Guid(6a394e1b578bafc4d91e9b78b3cb3d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Mounted Gun.obj using Guid(6a394e1b578bafc4d91e9b78b3cb3d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e7a00feeff8b0859007d0494652ca8') in 0.313783 seconds
+  Import took 0.338244 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Prefabs/tile_split.fbx
-  artifactKey: Guid(32f197f90c2aa0e489ce05b672635b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_split.fbx using Guid(32f197f90c2aa0e489ce05b672635b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab6d2163a6f42b4c6d0d425a1997105') in 0.058650 seconds
-  Import took 0.061027 seconds .
+  Time since last request: 546.559922 seconds.
+  path: Assets/Scripts/Torreta.cs
+  artifactKey: Guid(b3365cf293efd7344b46e6d85060ddab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Torreta.cs using Guid(b3365cf293efd7344b46e6d85060ddab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de36c9953399d7443a67cc923c5084b') in 0.190410 seconds
+  Import took 0.224214 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Prefabs/tile.fbx
-  artifactKey: Guid(d83a1793b315d544b835aa2f807b28a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile.fbx using Guid(d83a1793b315d544b835aa2f807b28a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c92ffe1ea07086465038194448525d') in 0.046156 seconds
-  Import took 0.048261 seconds .
+  Time since last request: 630.488485 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(481b5550e56966a4fac4f6ead9d24cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(481b5550e56966a4fac4f6ead9d24cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6d9107b747d12beb48b02df042fdd6') in 0.028436 seconds
+  Import took 0.118702 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Prefabs/snow_detail_treeLarge.fbx
-  artifactKey: Guid(39c0000b70cf0064b808d4befb5137d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_detail_treeLarge.fbx using Guid(39c0000b70cf0064b808d4befb5137d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243667fadace61939d0d53f4ed43b208') in 0.046503 seconds
-  Import took 0.049089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Prefabs/towerRound_bottomB.fbx
-  artifactKey: Guid(3fb350078e3a4b44190b810645e8ab05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerRound_bottomB.fbx using Guid(3fb350078e3a4b44190b810645e8ab05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b489db8c0d691457a3d4c903aeda69d') in 0.044894 seconds
-  Import took 0.046939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Prefabs/weapon_catapult.fbx
-  artifactKey: Guid(1708f0faba363694a81c999d0daaec60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/weapon_catapult.fbx using Guid(1708f0faba363694a81c999d0daaec60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30fa247142e28a46316ea808ffb54e3') in 0.050603 seconds
-  Import took 0.052917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Prefabs/snow_detail_crystalLarge.fbx
-  artifactKey: Guid(d18aafeb7864c5d4d97c8da19eb4a934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_detail_crystalLarge.fbx using Guid(d18aafeb7864c5d4d97c8da19eb4a934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f19b55a58f5323e4986f7aa721111d') in 0.064557 seconds
-  Import took 0.066355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Prefabs/towerRound_crystals.fbx
-  artifactKey: Guid(1fd64af4998560845b14eb8f2a3d16de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerRound_crystals.fbx using Guid(1fd64af4998560845b14eb8f2a3d16de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397a722f788cfedaf7986e05125ae1ca') in 0.085879 seconds
-  Import took 0.087754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Prefabs/towerSquare_topA.fbx
-  artifactKey: Guid(cf6284c353f9f2041922c6e07701f186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerSquare_topA.fbx using Guid(cf6284c353f9f2041922c6e07701f186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7570d0e7f8ae33d0938f5cb25665d4') in 0.042524 seconds
-  Import took 0.044687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Prefabs/towerRound_middleA.fbx
-  artifactKey: Guid(a0c6e3652443f1642914748751a320d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerRound_middleA.fbx using Guid(a0c6e3652443f1642914748751a320d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492c43951a2c6dee70861f2416e9f415') in 0.041968 seconds
-  Import took 0.043895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Prefabs/snow_tile_riverSlopeLarge.fbx
-  artifactKey: Guid(de2876752bf2fab418ac9b831b5cbbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_riverSlopeLarge.fbx using Guid(de2876752bf2fab418ac9b831b5cbbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56a54bf8636206a3cff43a58f493869') in 0.050577 seconds
-  Import took 0.053194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Prefabs/towerRound_topA.fbx
-  artifactKey: Guid(33bbedf60d853e5468ae6b3275980864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerRound_topA.fbx using Guid(33bbedf60d853e5468ae6b3275980864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ace04442b5124ee767ece2c89b176d') in 0.059668 seconds
-  Import took 0.061804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Prefabs/tile_cornerOuter.fbx
-  artifactKey: Guid(e4886e5da4c229242a2fd0b78c9aabfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_cornerOuter.fbx using Guid(e4886e5da4c229242a2fd0b78c9aabfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27981e88a967b283c36e167c19d78810') in 0.038005 seconds
-  Import took 0.040849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Prefabs/tile_treeQuad.fbx
-  artifactKey: Guid(2bfd182e5e728a24c83c12d9e575df2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_treeQuad.fbx using Guid(2bfd182e5e728a24c83c12d9e575df2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47d24b25a18c4e308157084fa15b5d3') in 0.075750 seconds
-  Import took 0.077649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Prefabs/snow_detail_rocks.fbx
-  artifactKey: Guid(eea1a320f85c2e44683fd322b0bd071e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_detail_rocks.fbx using Guid(eea1a320f85c2e44683fd322b0bd071e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b92b01a3cf67f25433c6b6ca63813a') in 0.035563 seconds
-  Import took 0.037716 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Prefabs/tile_transition.fbx
-  artifactKey: Guid(7b5aeec67f07645418b8a7d73cd5940b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_transition.fbx using Guid(7b5aeec67f07645418b8a7d73cd5940b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b5b4224c24d92f2b7b316e05c88c40') in 0.037192 seconds
-  Import took 0.039190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Prefabs/enemy_ufoYellowWeapon.fbx
-  artifactKey: Guid(2530a92135f92fe4c97b8c15df1fd950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/enemy_ufoYellowWeapon.fbx using Guid(2530a92135f92fe4c97b8c15df1fd950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c279422741514aacff0e2f88d071ebe') in 0.055555 seconds
-  Import took 0.057699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Prefabs/towerSquare_sampleC.fbx
-  artifactKey: Guid(d5682fa96aacd5b43b09a9f023186062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerSquare_sampleC.fbx using Guid(d5682fa96aacd5b43b09a9f023186062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a8246124a39eebc4d6ea0ccea78245') in 0.037142 seconds
-  Import took 0.039150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Prefabs/towerSquare_roofA.fbx
-  artifactKey: Guid(638edde69a55c304a98c6cb1cdce4e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerSquare_roofA.fbx using Guid(638edde69a55c304a98c6cb1cdce4e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1bd169bc497c7fac17086f26334b1d') in 0.047281 seconds
-  Import took 0.049627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Prefabs/snow_tile_rock.fbx
-  artifactKey: Guid(624435ca30b6cba4393c8c97b8b8c564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_rock.fbx using Guid(624435ca30b6cba4393c8c97b8b8c564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e644f2f9b7bcfd34369dc68e4fd69096') in 0.040645 seconds
-  Import took 0.042545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Prefabs/snow_tile.fbx
-  artifactKey: Guid(8c3d14b1a3d87084581d79a4f4c7596f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile.fbx using Guid(8c3d14b1a3d87084581d79a4f4c7596f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6bf2ac7471d2f83989e6d125bcc87b') in 0.053443 seconds
-  Import took 0.055577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Prefabs/tile_riverCorner.fbx
-  artifactKey: Guid(f79f49ea685cdb444ad5241625270396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_riverCorner.fbx using Guid(f79f49ea685cdb444ad5241625270396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6df3dcc75ced252b5813cf14860fe5c') in 0.041303 seconds
-  Import took 0.043124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Prefabs/snow_tile_wideCorner.fbx
-  artifactKey: Guid(31989bc19aab7424480fe808a471742b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_wideCorner.fbx using Guid(31989bc19aab7424480fe808a471742b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fb7bb44527891121d4358e34a66051') in 0.038720 seconds
-  Import took 0.040679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Prefabs/enemy_ufoGreenWeapon.fbx
-  artifactKey: Guid(d738768e81827724eb38275e5671a3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/enemy_ufoGreenWeapon.fbx using Guid(d738768e81827724eb38275e5671a3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0faca8b85c798e9b2e96480b54beb83') in 0.047894 seconds
-  Import took 0.049986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Prefabs/tile_hill.fbx
-  artifactKey: Guid(e38a461054d62f34fa9d34bd3ef6ae92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_hill.fbx using Guid(e38a461054d62f34fa9d34bd3ef6ae92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fedac139ecda4ad95a8a3916a42b677') in 0.049787 seconds
-  Import took 0.051615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Prefabs/towerRound_middleC.fbx
-  artifactKey: Guid(9e177a8f6898334469eaaf99674b7b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerRound_middleC.fbx using Guid(9e177a8f6898334469eaaf99674b7b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eaf9135746564b6857a58b5154205db') in 0.034494 seconds
-  Import took 0.036450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Prefabs/snow_tile_split.fbx
-  artifactKey: Guid(1fecbf8c6f8933b479d78dbdcdb5fa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_split.fbx using Guid(1fecbf8c6f8933b479d78dbdcdb5fa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0e57c0c45946e44731e9fe9b2dafd8') in 0.042370 seconds
-  Import took 0.044381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Prefabs/tile_treeDouble.fbx
-  artifactKey: Guid(16eae4da87694bf4c8e6acb3bd9af758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_treeDouble.fbx using Guid(16eae4da87694bf4c8e6acb3bd9af758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad10b2f6f44d69dd1cba8a4dbfe745b') in 0.058307 seconds
-  Import took 0.060502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Prefabs/towerSquare_sampleB.fbx
-  artifactKey: Guid(91eb9c5d1bf1818469ae87633d92a137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerSquare_sampleB.fbx using Guid(91eb9c5d1bf1818469ae87633d92a137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3611c9d7dea632d1b422eb962e93245a') in 0.040954 seconds
-  Import took 0.042828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Prefabs/snow_tile_hill.fbx
-  artifactKey: Guid(d3314872321f3a44d89507f3b9aa99bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_hill.fbx using Guid(d3314872321f3a44d89507f3b9aa99bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3bd895a45faf5fec8e2f05ffc5bf168') in 0.046640 seconds
-  Import took 0.048591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Prefabs/snow_tile_crossing.fbx
-  artifactKey: Guid(24bf1bddc87368e499f1a71887214590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_crossing.fbx using Guid(24bf1bddc87368e499f1a71887214590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff03d7a884324e229b8fc22fb17f26a3') in 0.051114 seconds
-  Import took 0.052937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Prefabs/tile_riverFall.fbx
-  artifactKey: Guid(21cebe05d2d9dd14eb1d0f87c2687699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_riverFall.fbx using Guid(21cebe05d2d9dd14eb1d0f87c2687699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4ae3313865bdb9fc632f2883a9f7ea') in 0.044512 seconds
-  Import took 0.046351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Prefabs/tile_slope.fbx
-  artifactKey: Guid(70ba0593c9d412446bfa8cab1abaa477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_slope.fbx using Guid(70ba0593c9d412446bfa8cab1abaa477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598fa76d8e3617523e9da5e7636ab017') in 0.061829 seconds
-  Import took 0.063978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Prefabs/towerRound_sampleA.fbx
-  artifactKey: Guid(25f44034147c3e3499ef2ebf2d4c7f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerRound_sampleA.fbx using Guid(25f44034147c3e3499ef2ebf2d4c7f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ff9bf4693710bbd866654c61c1709d') in 0.046993 seconds
-  Import took 0.048980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Prefabs/enemy_ufoGreen.fbx
-  artifactKey: Guid(335324d518f3dfd41ba42a642d580ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/enemy_ufoGreen.fbx using Guid(335324d518f3dfd41ba42a642d580ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48dafb03c85ec4a15cca2761e28a571') in 0.042646 seconds
-  Import took 0.053894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Prefabs/snow_tile_riverStraight.fbx
-  artifactKey: Guid(4b4a61f620d45874cb84fc4f51c96096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_riverStraight.fbx using Guid(4b4a61f620d45874cb84fc4f51c96096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba863178c6e7b3b0469447d76d14b24f') in 0.037759 seconds
-  Import took 0.040192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Prefabs/detail_crystal.fbx
-  artifactKey: Guid(07e1d58867ab93546a86949752230055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/detail_crystal.fbx using Guid(07e1d58867ab93546a86949752230055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0faca0af0176ac61ff888988216c33d4') in 0.040172 seconds
-  Import took 0.042254 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Prefabs/woodStructure.fbx
-  artifactKey: Guid(67ec368c86cb19348be68d2be9b349d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/woodStructure.fbx using Guid(67ec368c86cb19348be68d2be9b349d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2197335aadc301afff0c25e4af28e326') in 0.054742 seconds
-  Import took 0.056777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Prefabs/towerRound_sampleD.fbx
-  artifactKey: Guid(7aced88cb3bdb5241948bf7980312479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerRound_sampleD.fbx using Guid(7aced88cb3bdb5241948bf7980312479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99e3d3937c4422f76888a7b0303bf0e') in 0.041126 seconds
-  Import took 0.043143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Prefabs/towerRound_sampleC.fbx
-  artifactKey: Guid(279ebfb9ffa2ea04191e697290ae1905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerRound_sampleC.fbx using Guid(279ebfb9ffa2ea04191e697290ae1905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be424db353d647232f6093552d2bed3e') in 0.037535 seconds
-  Import took 0.039291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Prefabs/snow_tile_tree.fbx
-  artifactKey: Guid(30e7284e44cd60048b82a047305b6e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_tree.fbx using Guid(30e7284e44cd60048b82a047305b6e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a864e11d28912fa3bb3b528ca5a9bc3') in 0.055965 seconds
-  Import took 0.057730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Prefabs/snow_tile_cornerOuter.fbx
-  artifactKey: Guid(5ab4a58aeed14df4a8652d1aefeaa49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_cornerOuter.fbx using Guid(5ab4a58aeed14df4a8652d1aefeaa49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5ad3dcb1e1c24ef49a0db73ad866a0') in 0.033305 seconds
-  Import took 0.035236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Prefabs/snow_tile_cornerInner.fbx
-  artifactKey: Guid(0f21149c79c3c1440a1419c03015c0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_cornerInner.fbx using Guid(0f21149c79c3c1440a1419c03015c0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46adcfe4ee13b0b386cf6e5a6b09b79') in 0.034252 seconds
-  Import took 0.036111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Prefabs/towerSquare_sampleE.fbx
-  artifactKey: Guid(596587d6f8d0e8f4dab4b3a77575e63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerSquare_sampleE.fbx using Guid(596587d6f8d0e8f4dab4b3a77575e63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b778d1d12d39c0646b3d8e467dbc1316') in 0.039485 seconds
-  Import took 0.041234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Prefabs/snow_tile_cornerRound.fbx
-  artifactKey: Guid(760b1aee4659bc3418e05adcae09a48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_cornerRound.fbx using Guid(760b1aee4659bc3418e05adcae09a48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa6d17017404ee9675619e2e683cb3c') in 0.044660 seconds
-  Import took 0.046618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Prefabs/snow_detail_tree.fbx
-  artifactKey: Guid(2c03f7a1eb0b8104d963a34c93d1561b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_detail_tree.fbx using Guid(2c03f7a1eb0b8104d963a34c93d1561b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299671509d7244d277d247fdb765e614') in 0.038688 seconds
-  Import took 0.040508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Prefabs/snow_tile_riverSlope.fbx
-  artifactKey: Guid(57bcab1f495bad34a868ef20c2206bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_riverSlope.fbx using Guid(57bcab1f495bad34a868ef20c2206bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aced9fe5b6b27c0cff5abe0c1a926612') in 0.045282 seconds
-  Import took 0.047046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Prefabs/tile_crossing.fbx
-  artifactKey: Guid(4d71939c07febce43bbeed5eb869d392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_crossing.fbx using Guid(4d71939c07febce43bbeed5eb869d392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d14f8e6bbc1aa24b51427b410f5fdc1') in 0.042326 seconds
-  Import took 0.044281 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Prefabs/tile_straight.fbx
-  artifactKey: Guid(e5612db2e59d8354ab20787893b2a6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_straight.fbx using Guid(e5612db2e59d8354ab20787893b2a6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23471bc5409778f1487cd37337ced0c') in 0.035842 seconds
-  Import took 0.037662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Prefabs/enemy_ufoYellow.fbx
-  artifactKey: Guid(2ebbc7f21d8ae5340a37c66c932213ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/enemy_ufoYellow.fbx using Guid(2ebbc7f21d8ae5340a37c66c932213ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5597d0f75301399b390ade05ae550cfe') in 0.038972 seconds
-  Import took 0.040824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Prefabs/snow_tile_crystal.fbx
-  artifactKey: Guid(c52cc13a37f0456468b631e384acf90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_crystal.fbx using Guid(c52cc13a37f0456468b631e384acf90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e62eca13d1f92a248a6bcc7def57e57') in 0.072808 seconds
-  Import took 0.074628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Prefabs/snow_tile_bump.fbx
-  artifactKey: Guid(41472667d2b3ee34f8d6c10b964255e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_bump.fbx using Guid(41472667d2b3ee34f8d6c10b964255e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f28f3c5d5c6d14c6cba2e15a01e33e8') in 0.046804 seconds
-  Import took 0.048607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Prefabs/snow_tile_spawn.fbx
-  artifactKey: Guid(9f95ece21c2537445a800a3c813b4290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_spawn.fbx using Guid(9f95ece21c2537445a800a3c813b4290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4d8bdfe7bddf1c8e846274be6e03d3') in 0.052393 seconds
-  Import took 0.054182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Prefabs/enemy_ufoRedWeapon.fbx
-  artifactKey: Guid(cfb14101ab5ebf143a0f9087e5b70b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/enemy_ufoRedWeapon.fbx using Guid(cfb14101ab5ebf143a0f9087e5b70b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8c85fceb2555ef7648f6ccb43ffade') in 0.044047 seconds
-  Import took 0.045854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Prefabs/towerRound_base.fbx
-  artifactKey: Guid(12140b9ab804b1842aa82c5b6b5b74ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerRound_base.fbx using Guid(12140b9ab804b1842aa82c5b6b5b74ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a704b02984068ab4df435a10cadacd') in 0.037543 seconds
-  Import took 0.039302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Prefabs/tile_crystal.fbx
-  artifactKey: Guid(9bed65249fb17c0459e837a9baf37a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_crystal.fbx using Guid(9bed65249fb17c0459e837a9baf37a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1829b02db0ac658bab2502c59d4c8431') in 0.065673 seconds
-  Import took 0.067429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Prefabs/detail_rocksLarge.fbx
-  artifactKey: Guid(dc9e1920e15df33499f75dfae5cef85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/detail_rocksLarge.fbx using Guid(dc9e1920e15df33499f75dfae5cef85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d6e8110094ed3524eb05d3fde59f77') in 0.026195 seconds
-  Import took 0.028265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Prefabs/tile_spawn.fbx
-  artifactKey: Guid(9f21b63ae0e10be47b7c9336394cb0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_spawn.fbx using Guid(9f21b63ae0e10be47b7c9336394cb0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f786950e2e0fea45a2596db4be61215') in 0.047958 seconds
-  Import took 0.050087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Prefabs/towerRound_roofC.fbx
-  artifactKey: Guid(53fb9c972c43b1a41bb64551a12387c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerRound_roofC.fbx using Guid(53fb9c972c43b1a41bb64551a12387c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9ec7adb039abeb2784d693f2804a19') in 0.042776 seconds
-  Import took 0.044577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Prefabs/snow_tile_end.fbx
-  artifactKey: Guid(9e143f4bf14d88440a653296e1aaf8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_end.fbx using Guid(9e143f4bf14d88440a653296e1aaf8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537814597d6810ee9862dac406932fd9') in 0.038076 seconds
-  Import took 0.039803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Prefabs/tile_wideTransition.fbx
-  artifactKey: Guid(e51b369331a5fe64f93c87fa89c118ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_wideTransition.fbx using Guid(e51b369331a5fe64f93c87fa89c118ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57a551a7fbf335da3afa296968c6a1d') in 0.042195 seconds
-  Import took 0.043897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Prefabs/towerSquare_bottomA.fbx
-  artifactKey: Guid(e3ab93870499d5844bc935ca67734f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerSquare_bottomA.fbx using Guid(e3ab93870499d5844bc935ca67734f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd35dd0824372b296a4b9da48b19155b') in 0.043461 seconds
-  Import took 0.045202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Prefabs/tile_dirt.fbx
-  artifactKey: Guid(03c2ce6751aa7be4abea98a92e76fa12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_dirt.fbx using Guid(03c2ce6751aa7be4abea98a92e76fa12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b37463877fa83c1c61a1662ef08608') in 0.034897 seconds
-  Import took 0.036945 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Prefabs/snow_tile_endRoundSpawn.fbx
-  artifactKey: Guid(cb19692c20b27844695a72b43d37cfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_endRoundSpawn.fbx using Guid(cb19692c20b27844695a72b43d37cfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7092b331866b0264d8a0a30f472bbc9b') in 0.047249 seconds
-  Import took 0.049093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Prefabs/snow_detail_crystal.fbx
-  artifactKey: Guid(5175b0156d10ecc4f8d1986932ab42a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_detail_crystal.fbx using Guid(5175b0156d10ecc4f8d1986932ab42a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2f1b282a23597f68019729c3840bb5') in 0.036277 seconds
-  Import took 0.037957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Prefabs/towerSquare_topC.fbx
-  artifactKey: Guid(afd7b952ded11e642909fe397c6f2a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerSquare_topC.fbx using Guid(afd7b952ded11e642909fe397c6f2a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c02fd8f3f9a59d326e17d986d41c92') in 0.030907 seconds
-  Import took 0.032665 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Prefabs/tile_riverBridge.fbx
-  artifactKey: Guid(b936db050516cfa40bdcc84a4cdd0c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_riverBridge.fbx using Guid(b936db050516cfa40bdcc84a4cdd0c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd599ce5eb3405b15efce19690c7a8005') in 0.043441 seconds
-  Import took 0.045306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Prefabs/snow_woodStructure_high.fbx
-  artifactKey: Guid(d5bc1c79cf1f9cf4b9d63abc440dc2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_woodStructure_high.fbx using Guid(d5bc1c79cf1f9cf4b9d63abc440dc2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6be950a34edf73e603b2582f3c60b8a') in 0.068956 seconds
-  Import took 0.070902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Prefabs/tile_spawnRound.fbx
-  artifactKey: Guid(27c1be0bbaf1ab343a8140bbb377c7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_spawnRound.fbx using Guid(27c1be0bbaf1ab343a8140bbb377c7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945878103a8c0df91fcdb9f870b3b257') in 0.053590 seconds
-  Import took 0.055750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Prefabs/snow_tile_wideSplit.fbx
-  artifactKey: Guid(8accec6dff4f9164098cee732bc6f6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_wideSplit.fbx using Guid(8accec6dff4f9164098cee732bc6f6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff367b6d36f7893013cadd67b8bb82e') in 0.039978 seconds
-  Import took 0.041966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Prefabs/snow_tile_cornerSquare.fbx
-  artifactKey: Guid(b2cb8fc02cbc64b4fb59d8207be724f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_cornerSquare.fbx using Guid(b2cb8fc02cbc64b4fb59d8207be724f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45a873dd322c2472cc53eb5ca2eb129') in 0.041237 seconds
-  Import took 0.043000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Prefabs/enemy_ufoRed.fbx
-  artifactKey: Guid(a728852927898bd408d55eda3829f96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/enemy_ufoRed.fbx using Guid(a728852927898bd408d55eda3829f96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9294b491ee84aaee049a7d8e23e592f3') in 0.047214 seconds
-  Import took 0.048942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Prefabs/towerSquare_bottomC.fbx
-  artifactKey: Guid(a545e5a1890471248bb46d9ef665361d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerSquare_bottomC.fbx using Guid(a545e5a1890471248bb46d9ef665361d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319b6f8763727e2074818e1d021e0303') in 0.029951 seconds
-  Import took 0.031676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Prefabs/towerSquare_middleB.fbx
-  artifactKey: Guid(90e396771c4af8c479b022977c67e58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerSquare_middleB.fbx using Guid(90e396771c4af8c479b022977c67e58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916d07d84056ae8788b394fa37cd37bb') in 0.039423 seconds
-  Import took 0.041281 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Prefabs/towerRound_bottomC.fbx
-  artifactKey: Guid(0e166bf84dc0b33428e04b3fb7e74ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerRound_bottomC.fbx using Guid(0e166bf84dc0b33428e04b3fb7e74ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e12ec1df6baffd608b09567490f817') in 0.034593 seconds
-  Import took 0.036327 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Prefabs/tile_straightHillLarge.fbx
-  artifactKey: Guid(16fa035fcd87b3044a8707fc03009ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_straightHillLarge.fbx using Guid(16fa035fcd87b3044a8707fc03009ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119fd8a8246e5ca24a3ffa05880561e8') in 0.039599 seconds
-  Import took 0.041352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Prefabs/tile_endSpawn.fbx
-  artifactKey: Guid(2aa3b22b46d30654894625aafe106204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_endSpawn.fbx using Guid(2aa3b22b46d30654894625aafe106204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4c7b560cf5cfca3ed45c2752baa090') in 0.044305 seconds
-  Import took 0.046156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Prefabs/towerRound_roofB.fbx
-  artifactKey: Guid(c043c26e473142c408692008b069e6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerRound_roofB.fbx using Guid(c043c26e473142c408692008b069e6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534368a3f01c400650e50c04e0d759f4') in 0.038770 seconds
-  Import took 0.040618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Prefabs/towerSquare_sampleF.fbx
-  artifactKey: Guid(5352b8f5751d17e41abe78737ca47128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerSquare_sampleF.fbx using Guid(5352b8f5751d17e41abe78737ca47128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8bf974b31d4f35d7a53a1f99b11ecb') in 0.048367 seconds
-  Import took 0.050143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Prefabs/snow_tile_riverTransition.fbx
-  artifactKey: Guid(523b4233375a4a544a167d09a2185be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_riverTransition.fbx using Guid(523b4233375a4a544a167d09a2185be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5957b29c83d005252679b6578e0b0e8') in 0.040827 seconds
-  Import took 0.042741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Prefabs/snow_tile_slope.fbx
-  artifactKey: Guid(590d7dfc4fa1a4442855aec13eeace1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_slope.fbx using Guid(590d7dfc4fa1a4442855aec13eeace1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da7ad7aa2206d34a51c24a4a819fd12') in 0.042588 seconds
-  Import took 0.044881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Prefabs/tile_riverSlope.fbx
-  artifactKey: Guid(8c784b808eddfd048862490b1e4621bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_riverSlope.fbx using Guid(8c784b808eddfd048862490b1e4621bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9366974a675ad75681c5e71a98edd5cb') in 0.040237 seconds
-  Import took 0.042103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Prefabs/snow_tile_wideTransition.fbx
-  artifactKey: Guid(20feee0f1c1ad1c4a931960584395fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_wideTransition.fbx using Guid(20feee0f1c1ad1c4a931960584395fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbe6cf35e6340bf32a633044b977b12') in 0.039216 seconds
-  Import took 0.040936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Prefabs/towerRound_sampleF.fbx
-  artifactKey: Guid(bdb0c22bbef0ac24a99b281e34bca91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerRound_sampleF.fbx using Guid(bdb0c22bbef0ac24a99b281e34bca91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01e2681911c3889f6b72c9d5a3daa99') in 0.034591 seconds
-  Import took 0.036535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Prefabs/tile_riverTransition.fbx
-  artifactKey: Guid(fc8d2c13f8589d84c849392ed7165ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_riverTransition.fbx using Guid(fc8d2c13f8589d84c849392ed7165ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544039b271a1e074fd6f38604cd8e022') in 0.035530 seconds
-  Import took 0.037344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Prefabs/snow_detail_dirt.fbx
-  artifactKey: Guid(0d62e3ab1b2e30649b70d4202af04e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_detail_dirt.fbx using Guid(0d62e3ab1b2e30649b70d4202af04e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bcb666bdd1ba3616202e80827dbc005') in 0.037476 seconds
-  Import took 0.039164 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Prefabs/woodStructure_high.fbx
-  artifactKey: Guid(c861e8763a7b5dd4a9174ed7ace3c169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/woodStructure_high.fbx using Guid(c861e8763a7b5dd4a9174ed7ace3c169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042cdd367108e634185a2cf276ed0a3b') in 0.036171 seconds
-  Import took 0.037954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Prefabs/snow_woodStructure.fbx
-  artifactKey: Guid(417c6352b15f3fd409e50ba146044584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_woodStructure.fbx using Guid(417c6352b15f3fd409e50ba146044584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f24740c868b12221822e375ba1ee60') in 0.040256 seconds
-  Import took 0.042199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Prefabs/tile_cornerSquare.fbx
-  artifactKey: Guid(8bf4aabc72019c945bb9fa52b0b78496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_cornerSquare.fbx using Guid(8bf4aabc72019c945bb9fa52b0b78496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b321677c66c76e118a2260582743454') in 0.036554 seconds
-  Import took 0.038384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Prefabs/towerRound_sampleB.fbx
-  artifactKey: Guid(ee07a6825e608b44199aba626773c1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerRound_sampleB.fbx using Guid(ee07a6825e608b44199aba626773c1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1a4efd4260fcd87c5237ad70a3f0ab') in 0.036552 seconds
-  Import took 0.038572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Prefabs/towerSquare_bottomB.fbx
-  artifactKey: Guid(c91d6683ee359e841ada926af2f707bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerSquare_bottomB.fbx using Guid(c91d6683ee359e841ada926af2f707bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0de81fc912140bb35781d43a3886979') in 0.034947 seconds
-  Import took 0.038163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Prefabs/weapon_ballista.fbx
-  artifactKey: Guid(40f88fe8a8eb13b4dbf68905fc753045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/weapon_ballista.fbx using Guid(40f88fe8a8eb13b4dbf68905fc753045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f6ac442b644b069808daa22db0a1f3') in 0.041294 seconds
-  Import took 0.043241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Prefabs/towerRound_topC.fbx
-  artifactKey: Guid(2500d19fe8119e4478b5d098d657fd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerRound_topC.fbx using Guid(2500d19fe8119e4478b5d098d657fd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abef1688456e2d430738cb41f67a1336') in 0.042365 seconds
-  Import took 0.044388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Prefabs/towerSquare_middleC.fbx
-  artifactKey: Guid(744c71db51119ef469084c69c3a22662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerSquare_middleC.fbx using Guid(744c71db51119ef469084c69c3a22662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89f388cfcf213add8a8dfd6574658ae') in 0.042244 seconds
-  Import took 0.044028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Prefabs/towerSquare_roofC.fbx
-  artifactKey: Guid(dc740ceaedd51a54d96de6950ef676c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerSquare_roofC.fbx using Guid(dc740ceaedd51a54d96de6950ef676c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c96e61a5770ae64994ec386a8faefe') in 0.045333 seconds
-  Import took 0.047478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Prefabs/towerSquare_topB.fbx
-  artifactKey: Guid(727da37372c3d204a8a366d4d969dc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerSquare_topB.fbx using Guid(727da37372c3d204a8a366d4d969dc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5524f936a6b51a186dc9cc6944055c') in 0.037813 seconds
-  Import took 0.039613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Prefabs/towerRound_middleB.fbx
-  artifactKey: Guid(85dbf14515ab4d54cb6616ab8264e581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerRound_middleB.fbx using Guid(85dbf14515ab4d54cb6616ab8264e581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e80c3416d140df7d47e5283c24a320d') in 0.043447 seconds
-  Import took 0.045198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Prefabs/tile_riverStraight.fbx
-  artifactKey: Guid(3cacddf352c3b614ba6363bf96bba751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_riverStraight.fbx using Guid(3cacddf352c3b614ba6363bf96bba751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10aa376aad262d17fe756653a969b6ad') in 0.033397 seconds
-  Import took 0.035523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Prefabs/weapon_cannon.fbx
-  artifactKey: Guid(59293a669ce2a0b4088d68aad9eb20fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/weapon_cannon.fbx using Guid(59293a669ce2a0b4088d68aad9eb20fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32eb871c7c9f6366f741340d5fc083af') in 0.042934 seconds
-  Import took 0.044970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Prefabs/snow_tile_straightHillLarge.fbx
-  artifactKey: Guid(85922e03830cc3a4d949a36c41338a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_straightHillLarge.fbx using Guid(85922e03830cc3a4d949a36c41338a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b6d193f0f98e62b6aaffc90c8419b5') in 0.058377 seconds
-  Import took 0.060193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Prefabs/towerSquare_roofB.fbx
-  artifactKey: Guid(1305023bb4ba2f3418709ae3bcd255eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerSquare_roofB.fbx using Guid(1305023bb4ba2f3418709ae3bcd255eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d250512bf039517821129be9fee1990') in 0.045604 seconds
-  Import took 0.047400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Prefabs/enemy_ufoPurpleWeapon.fbx
-  artifactKey: Guid(d67e92828bc80ca4ea637589624ac2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/enemy_ufoPurpleWeapon.fbx using Guid(d67e92828bc80ca4ea637589624ac2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c67d9c51b9190688398678159a0ec1') in 0.049292 seconds
-  Import took 0.051401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Prefabs/towerRound_bottomA.fbx
-  artifactKey: Guid(d52eab324febb1945aa463d099a4c9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerRound_bottomA.fbx using Guid(d52eab324febb1945aa463d099a4c9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bde242c4f11104d7c7ba33a43985a58') in 0.038866 seconds
-  Import took 0.040564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Prefabs/tile_riverSlopeLarge.fbx
-  artifactKey: Guid(50d74fe94042bf14b9809c486eecf489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_riverSlopeLarge.fbx using Guid(50d74fe94042bf14b9809c486eecf489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3875b1ca1260d949ae1defb4450d14f') in 0.040891 seconds
-  Import took 0.042650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Prefabs/tile_tree.fbx
-  artifactKey: Guid(c04d156914420654db3f679a1e463019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_tree.fbx using Guid(c04d156914420654db3f679a1e463019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9758dbb81d790e6b0273c29badd14d') in 0.049279 seconds
-  Import took 0.051214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Prefabs/tile_wideCorner.fbx
-  artifactKey: Guid(91f8a383f9b960d41bb2116753c183cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_wideCorner.fbx using Guid(91f8a383f9b960d41bb2116753c183cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115935d6b104ebe93159fcc6e7dfcf51') in 0.040262 seconds
-  Import took 0.042166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Prefabs/snow_tile_spawnRound.fbx
-  artifactKey: Guid(935d8e971c7e2dd41a55e61581736c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_spawnRound.fbx using Guid(935d8e971c7e2dd41a55e61581736c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769888e6eb8a51945bee5c811bcd636c') in 0.063358 seconds
-  Import took 0.065434 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Prefabs/tile_endRound.fbx
-  artifactKey: Guid(ab48699ae69bb6d4fa6b60c6051d288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_endRound.fbx using Guid(ab48699ae69bb6d4fa6b60c6051d288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a285c1c2662fddefdb9ccfe4ff59ebec') in 0.042917 seconds
-  Import took 0.044844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Prefabs/detail_tree.fbx
-  artifactKey: Guid(71bce3da86e3e0c4990210ad1787abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/detail_tree.fbx using Guid(71bce3da86e3e0c4990210ad1787abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84f68ca8793b9506f67ee607f8adbdf') in 0.040699 seconds
-  Import took 0.043329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Prefabs/snow_detail_rocksLarge.fbx
-  artifactKey: Guid(8209a30263ffbb5488182ac93d080ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_detail_rocksLarge.fbx using Guid(8209a30263ffbb5488182ac93d080ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab92532fbb1e3168b7a70a7d28752ddf') in 0.045232 seconds
-  Import took 0.047277 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Prefabs/tile_rock.fbx
-  artifactKey: Guid(57ccda24bf093a349ae1c1a6d9a5c6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_rock.fbx using Guid(57ccda24bf093a349ae1c1a6d9a5c6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472458cac2a44e747946bdec73682089') in 0.053588 seconds
-  Import took 0.055830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Prefabs/snow_tile_treeQuad.fbx
-  artifactKey: Guid(78ad8de1cefac544abf298e0b2a421f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_treeQuad.fbx using Guid(78ad8de1cefac544abf298e0b2a421f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f3e4793350cd91f8dfc53eb768f2fb') in 0.085772 seconds
-  Import took 0.087688 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Prefabs/tile_straightHill.fbx
-  artifactKey: Guid(e03ba715432daeb45a0209f148b40bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_straightHill.fbx using Guid(e03ba715432daeb45a0209f148b40bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b729d103b1c33b960a7187f94d8ce40') in 0.046834 seconds
-  Import took 0.048616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Prefabs/tile_cornerRound.fbx
-  artifactKey: Guid(2577c1a04f9d06b4893a0758027106aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_cornerRound.fbx using Guid(2577c1a04f9d06b4893a0758027106aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f888445d3afa4582404c7f5650bc805') in 0.044921 seconds
-  Import took 0.047175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Prefabs/snow_tile_riverBridge.fbx
-  artifactKey: Guid(514d59800824ac345bf646476823c30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_riverBridge.fbx using Guid(514d59800824ac345bf646476823c30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d732d71b208dec807abe602c314a10') in 0.038884 seconds
-  Import took 0.040835 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Prefabs/tile_wideStraight.fbx
-  artifactKey: Guid(49e40641df2c41f48aa75aa965c25ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_wideStraight.fbx using Guid(49e40641df2c41f48aa75aa965c25ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb69d4a41c9d34ed16f1354b8d496b4') in 0.036469 seconds
-  Import took 0.038349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Prefabs/tile_cornerLarge.fbx
-  artifactKey: Guid(086e4e4764556004f9c8cb50d2ac38d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_cornerLarge.fbx using Guid(086e4e4764556004f9c8cb50d2ac38d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5bbddde590a481034aed15a06e150e') in 0.046358 seconds
-  Import took 0.048111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Prefabs/tile_end.fbx
-  artifactKey: Guid(99c5b8287d0370b49bfc9cfc08a3ec92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_end.fbx using Guid(99c5b8287d0370b49bfc9cfc08a3ec92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0981bec8ade92a3f68bf9ca68e92a13a') in 0.036632 seconds
-  Import took 0.038672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Prefabs/towerRound_sampleE.fbx
-  artifactKey: Guid(9b2df3d432821b74ea4539c6bf67fd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerRound_sampleE.fbx using Guid(9b2df3d432821b74ea4539c6bf67fd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6963d0de6a9f98cb679d17b2d41a680') in 0.034002 seconds
-  Import took 0.036040 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Prefabs/towerSquare_sampleA.fbx
-  artifactKey: Guid(8aa000e6bef25d74a9be6ba6cec62a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerSquare_sampleA.fbx using Guid(8aa000e6bef25d74a9be6ba6cec62a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1938d9293200d241b8a17b44975f3146') in 0.040064 seconds
-  Import took 0.042621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Prefabs/detail_crystalLarge.fbx
-  artifactKey: Guid(456e123363e8f464f93cd9f430d3152d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/detail_crystalLarge.fbx using Guid(456e123363e8f464f93cd9f430d3152d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5504ddabdfeaf2e0b0af2e566d9b7d') in 0.063640 seconds
-  Import took 0.065525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Prefabs/snow_detail_dirtLarge.fbx
-  artifactKey: Guid(209fa6009648c284faa99c3d0127d571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_detail_dirtLarge.fbx using Guid(209fa6009648c284faa99c3d0127d571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bca991c871644a1f7cafbd9ec07bce') in 0.032689 seconds
-  Import took 0.034404 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Prefabs/snow_tile_endRound.fbx
-  artifactKey: Guid(51ceb7877e77bab42a77b7cf0e833138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_endRound.fbx using Guid(51ceb7877e77bab42a77b7cf0e833138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba31726976ba9a4f9c765726e5f0a353') in 0.043462 seconds
-  Import took 0.045558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Prefabs/towerRound_roofA.fbx
-  artifactKey: Guid(41404882d597b3543a6d7216ebab4206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerRound_roofA.fbx using Guid(41404882d597b3543a6d7216ebab4206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c136acaaa88eadbe7fbffd64a18ff38b') in 0.062975 seconds
-  Import took 0.065114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Prefabs/snow_tile_riverCorner.fbx
-  artifactKey: Guid(7e107eebb486d6b4fbcae5254b6d76d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_riverCorner.fbx using Guid(7e107eebb486d6b4fbcae5254b6d76d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331ebf466991c901551a99cf7e2d95e0') in 0.040840 seconds
-  Import took 0.043039 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Prefabs/tile_cornerInner.fbx
-  artifactKey: Guid(8031180cf75d9984ba634a5749b9ea92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_cornerInner.fbx using Guid(8031180cf75d9984ba634a5749b9ea92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0b7e1ad04fed7a8eef96e8e5b5ef9a') in 0.041201 seconds
-  Import took 0.043067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Prefabs/enemy_ufoPurple.fbx
-  artifactKey: Guid(0796a37143e003147bd82f2faff4bdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/enemy_ufoPurple.fbx using Guid(0796a37143e003147bd82f2faff4bdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0a5a6aea6dcd837e607f1f7a3e2611') in 0.035710 seconds
-  Import took 0.037567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Prefabs/snow_tile_straightHill.fbx
-  artifactKey: Guid(a6896d610a4394542814832bde7f11f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_straightHill.fbx using Guid(a6896d610a4394542814832bde7f11f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5ee9d58f0790997c179a27efdf5bd9') in 0.038888 seconds
-  Import took 0.040719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Prefabs/snow_tile_treeDouble.fbx
-  artifactKey: Guid(18bba0c1d26d3c1459f65edf33a5d3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_treeDouble.fbx using Guid(18bba0c1d26d3c1459f65edf33a5d3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8f4936ee510cef99a5230b46260259') in 0.053439 seconds
-  Import took 0.055245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Prefabs/snow_tile_transition.fbx
-  artifactKey: Guid(ed4616a3bc115ab46badb2dd13180723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_transition.fbx using Guid(ed4616a3bc115ab46badb2dd13180723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73543a37c3a8fd373aff1bf3258265f') in 0.046465 seconds
-  Import took 0.048596 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Prefabs/tile_dirtHigh.fbx
-  artifactKey: Guid(5deaff771311aba40ab256f0d923c58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_dirtHigh.fbx using Guid(5deaff771311aba40ab256f0d923c58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5150067a7653d0908c2fbf8214cb6dfa') in 0.033631 seconds
-  Import took 0.035316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Prefabs/detail_dirtLarge.fbx
-  artifactKey: Guid(6f8d62c7986312545bf48d3adb7af11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/detail_dirtLarge.fbx using Guid(6f8d62c7986312545bf48d3adb7af11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fb1005bac2cbcf8175b7e72ce995ce') in 0.038583 seconds
-  Import took 0.041308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Prefabs/towerRound_topB.fbx
-  artifactKey: Guid(62bc1c2f335cbc6479319c04ebaa4600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerRound_topB.fbx using Guid(62bc1c2f335cbc6479319c04ebaa4600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1d6ef91b6eb4720c428e0ef990f916') in 0.041043 seconds
-  Import took 0.042899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Prefabs/weapon_blaster.fbx
-  artifactKey: Guid(3bcc47d98183edc4fbb1c65f39427a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/weapon_blaster.fbx using Guid(3bcc47d98183edc4fbb1c65f39427a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03414746d8ba925067d01af418e841c8') in 0.040164 seconds
-  Import took 0.042153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Prefabs/tile_wideSplit.fbx
-  artifactKey: Guid(753ba5e554542a542a3ee97754aee9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_wideSplit.fbx using Guid(753ba5e554542a542a3ee97754aee9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45427bd2165a42f23afd551143e1c5ec') in 0.038057 seconds
-  Import took 0.040212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Prefabs/tile_endRoundSpawn.fbx
-  artifactKey: Guid(76e97c7cc80c7f94aa054729c4627b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_endRoundSpawn.fbx using Guid(76e97c7cc80c7f94aa054729c4627b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8d1c67257219ccc3f9e3035d26acc9') in 0.053837 seconds
-  Import took 0.055750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Prefabs/snow_tile_endSpawn.fbx
-  artifactKey: Guid(4cc73ad878fe93443a029679fe12ccc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_endSpawn.fbx using Guid(4cc73ad878fe93443a029679fe12ccc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df7cd70e2e121ebc58812fec2825d98') in 0.052556 seconds
-  Import took 0.054758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Prefabs/snow_tile_wideStraight.fbx
-  artifactKey: Guid(70285f862d7b65d4793ddcf0af19421d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_wideStraight.fbx using Guid(70285f862d7b65d4793ddcf0af19421d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9697b9ff948f7150e6f5799f51d476') in 0.049034 seconds
-  Import took 0.050952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Prefabs/tile_bump.fbx
-  artifactKey: Guid(77772aa2f2a14da4eafa5cbbd1ffa611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tile_bump.fbx using Guid(77772aa2f2a14da4eafa5cbbd1ffa611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801fd3fe8399d0e7a46189cd989f9e82') in 0.041863 seconds
-  Import took 0.043584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Prefabs/towerSquare_sampleD.fbx
-  artifactKey: Guid(c228d52eebb5f0f43b768dd3d04f8ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerSquare_sampleD.fbx using Guid(c228d52eebb5f0f43b768dd3d04f8ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3579da6284654b9ec297a50a6f894d') in 0.036410 seconds
-  Import took 0.039304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Prefabs/detail_treeLarge.fbx
-  artifactKey: Guid(bc15961c20876d945b02da4fd241f344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/detail_treeLarge.fbx using Guid(bc15961c20876d945b02da4fd241f344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf40376b6f67ee891adc5b60f00ac346') in 0.038164 seconds
-  Import took 0.040129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Prefabs/snow_tile_cornerLarge.fbx
-  artifactKey: Guid(119f4612c33d55a45884f8c0929ff89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snow_tile_cornerLarge.fbx using Guid(119f4612c33d55a45884f8c0929ff89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc898eefc71212c93dcc61e2d4094ad') in 0.045953 seconds
-  Import took 0.047845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Prefabs/detail_rocks.fbx
-  artifactKey: Guid(19e15748e937f694c9809ef2aff146ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/detail_rocks.fbx using Guid(19e15748e937f694c9809ef2aff146ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63441d268a90dc885cc622d850e4a67f') in 0.030634 seconds
-  Import took 0.032688 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Prefabs/towerSquare_middleA.fbx
-  artifactKey: Guid(d6c661688ddfd314fa4e75ab2b2dd60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/towerSquare_middleA.fbx using Guid(d6c661688ddfd314fa4e75ab2b2dd60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42696445ec883bffe41d10da49689be7') in 0.039408 seconds
-  Import took 0.041793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 229.095789 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e0e235c0f4af3754229b664788db90') in 0.006828 seconds
-  Import took 0.009345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001310 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e0e235c0f4af3754229b664788db90') in 0.002755 seconds
-  Import took 0.004934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 77.212928 seconds.
-  path: Assets/PrefabsFinales
-  artifactKey: Guid(14326d4b79286b641aab978b4cfbdf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabsFinales using Guid(14326d4b79286b641aab978b4cfbdf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e42450844f981ab95d9f40b9a1bb65') in 0.006984 seconds
-  Import took 0.008967 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.500610 seconds.
-  path: Assets/PrefabsFinales/enemy_ufoPurple Variant.prefab
-  artifactKey: Guid(560dae8ef73b75c41a7c72050d419b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabsFinales/enemy_ufoPurple Variant.prefab using Guid(560dae8ef73b75c41a7c72050d419b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6965e78f69657dade8e45cbf41b545') in 0.019269 seconds
-  Import took 0.021344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.036147 seconds.
-  path: Assets/PrefabsFinales/enemy_ufoPurple Variant.prefab
-  artifactKey: Guid(560dae8ef73b75c41a7c72050d419b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabsFinales/enemy_ufoPurple Variant.prefab using Guid(560dae8ef73b75c41a7c72050d419b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6965e78f69657dade8e45cbf41b545') in 0.010025 seconds
-  Import took 0.014973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.869641 seconds.
-  path: Assets/Materials/End.mat
-  artifactKey: Guid(3c688202ad9ecf74e927f594b6dd638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/End.mat using Guid(3c688202ad9ecf74e927f594b6dd638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8e15c1092a3cce017fcd1b4e2307c9') in 0.070228 seconds
-  Import took 0.073570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Materials/Start.mat
-  artifactKey: Guid(898d465017194874e8724692382105a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Start.mat using Guid(898d465017194874e8724692382105a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b2a7028d94dfa50b8b8dc5e568dbf6') in 0.020830 seconds
-  Import took 0.023784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.435915 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(785389eda71464042a604edb466e5966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(785389eda71464042a604edb466e5966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fae5dc785c13b4d41d859a30876258') in 0.009468 seconds
-  Import took 0.011638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000912 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(785389eda71464042a604edb466e5966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(785389eda71464042a604edb466e5966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fae5dc785c13b4d41d859a30876258') in 0.002297 seconds
-  Import took 0.004635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.827403 seconds.
-  path: Assets/Scripts/GameManager.cs
-  artifactKey: Guid(f3c00cfa63c29f941a9f1de41a26303c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameManager.cs using Guid(f3c00cfa63c29f941a9f1de41a26303c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6354c4bf2cf4406c17513c0b3ea41cfc') in 0.080089 seconds
-  Import took 0.082053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 971.784247 seconds.
-  path: Assets/Scripts/GameManager.cs
-  artifactKey: Guid(f3c00cfa63c29f941a9f1de41a26303c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameManager.cs using Guid(f3c00cfa63c29f941a9f1de41a26303c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174f188dcb56efe2ff4f5814f14f7de3') in 0.020400 seconds
-  Import took 0.023306 seconds .
+  Time since last request: 9.622220 seconds.
+  path: Assets/Materials/Bala.mat
+  artifactKey: Guid(bf9ddc85bfd56e84492320c895ddb3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Bala.mat using Guid(bf9ddc85bfd56e84492320c895ddb3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d6df08c5ac79e5c06096a1b7b6a8e7') in 0.515717 seconds
+  Import took 0.521180 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000783 seconds.
+Registered in 0.016911 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.798 seconds
+- Completed reload, in  2.313 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.5 MB.
-System memory in use after: 73.6 MB.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.9 MB.
+System memory in use after: 73.0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1621.
-Total: 2.149600 ms (FindLiveObjects: 0.122600 ms CreateObjectMapping: 0.032800 ms MarkObjects: 1.974100 ms  DeleteObjects: 0.019200 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1623.
+Total: 14.278400 ms (FindLiveObjects: 0.198700 ms CreateObjectMapping: 0.031300 ms MarkObjects: 14.021800 ms  DeleteObjects: 0.024000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001019 seconds.
+Registered in 0.001388 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.944 seconds
+- Completed reload, in  1.564 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.6 MB.
-System memory in use after: 73.7 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1624.
-Total: 1.460600 ms (FindLiveObjects: 0.200400 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.209500 ms  DeleteObjects: 0.013600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000729 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.798 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.6 MB.
-System memory in use after: 73.7 MB.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.9 MB.
+System memory in use after: 73.0 MB.
 
 Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1627.
-Total: 2.045500 ms (FindLiveObjects: 0.142100 ms CreateObjectMapping: 0.095900 ms MarkObjects: 1.791600 ms  DeleteObjects: 0.014600 ms)
+Total: 5.427300 ms (FindLiveObjects: 0.448000 ms CreateObjectMapping: 0.127100 ms MarkObjects: 4.769600 ms  DeleteObjects: 0.077700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000713 seconds.
+Registered in 0.001247 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.292 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.9 MB.
+System memory in use after: 73.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1630.
+Total: 1.863800 ms (FindLiveObjects: 0.196900 ms CreateObjectMapping: 0.030800 ms MarkObjects: 1.616400 ms  DeleteObjects: 0.018200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 672.126089 seconds.
+  path: Assets/Scripts/Bala.cs
+  artifactKey: Guid(daf2c74b5243ea14fb6f31f1d4f04d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Bala.cs using Guid(daf2c74b5243ea14fb6f31f1d4f04d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ded311b5c757d572272e8bba6f7ba0') in 0.015087 seconds
+  Import took 0.093844 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001355 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.210 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.9 MB.
+System memory in use after: 73.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1633.
+Total: 4.411700 ms (FindLiveObjects: 0.507700 ms CreateObjectMapping: 0.053000 ms MarkObjects: 3.810400 ms  DeleteObjects: 0.036900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 881.198810 seconds.
+  path: Assets/Scripts/Bala.cs
+  artifactKey: Guid(daf2c74b5243ea14fb6f31f1d4f04d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Bala.cs using Guid(daf2c74b5243ea14fb6f31f1d4f04d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38347a7f6f13fcd1d3f24a92a8b64ed1') in 0.014403 seconds
+  Import took 0.044394 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001252 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.427 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.9 MB.
+System memory in use after: 73.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1636.
+Total: 3.916200 ms (FindLiveObjects: 0.845700 ms CreateObjectMapping: 0.124500 ms MarkObjects: 2.898700 ms  DeleteObjects: 0.044300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001367 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
@@ -1409,114 +263,21 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.951 seconds
+- Completed reload, in  1.497 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.6 MB.
-System memory in use after: 73.7 MB.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.0 MB.
+System memory in use after: 73.1 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1630.
-Total: 1.667800 ms (FindLiveObjects: 0.163800 ms CreateObjectMapping: 0.050700 ms MarkObjects: 1.435800 ms  DeleteObjects: 0.016300 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1639.
+Total: 3.616000 ms (FindLiveObjects: 0.377900 ms CreateObjectMapping: 0.070600 ms MarkObjects: 3.135000 ms  DeleteObjects: 0.030300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001168 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.875 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.6 MB.
-System memory in use after: 73.7 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1633.
-Total: 1.493900 ms (FindLiveObjects: 0.147500 ms CreateObjectMapping: 0.037300 ms MarkObjects: 1.296200 ms  DeleteObjects: 0.012100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1493.992724 seconds.
-  path: Assets/PrefabsFinales/enemy_ufoPurple Variant.prefab
-  artifactKey: Guid(560dae8ef73b75c41a7c72050d419b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabsFinales/enemy_ufoPurple Variant.prefab using Guid(560dae8ef73b75c41a7c72050d419b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c6451b0338a8e854ffaa73f1a31831') in 0.123791 seconds
-  Import took 0.126505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/PrefabsFinales/enemy_ufoPurple Variant.prefab
-  artifactKey: Guid(560dae8ef73b75c41a7c72050d419b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabsFinales/enemy_ufoPurple Variant.prefab using Guid(560dae8ef73b75c41a7c72050d419b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18653dc61bb9effb61b44e3efea13ff6') in 0.012253 seconds
-  Import took 0.014613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008724 seconds.
-  path: Assets/PrefabsFinales/enemy_ufoPurple Variant.prefab
-  artifactKey: Guid(560dae8ef73b75c41a7c72050d419b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabsFinales/enemy_ufoPurple Variant.prefab using Guid(560dae8ef73b75c41a7c72050d419b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18653dc61bb9effb61b44e3efea13ff6') in 0.014848 seconds
-  Import took 0.017108 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000798 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.842 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.6 MB.
-System memory in use after: 73.7 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1637.
-Total: 1.379100 ms (FindLiveObjects: 0.128200 ms CreateObjectMapping: 0.033900 ms MarkObjects: 1.202700 ms  DeleteObjects: 0.013200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000663 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.809 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.6 MB.
-System memory in use after: 73.7 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1640.
-Total: 1.611800 ms (FindLiveObjects: 0.145200 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.416900 ms  DeleteObjects: 0.013600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001018 seconds.
+Registered in 0.001104 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
@@ -1525,15 +286,476 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.053 seconds
+- Completed reload, in  1.763 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.6 MB.
-System memory in use after: 73.7 MB.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.0 MB.
+System memory in use after: 73.1 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1643.
-Total: 1.438900 ms (FindLiveObjects: 0.161700 ms CreateObjectMapping: 0.037900 ms MarkObjects: 1.224700 ms  DeleteObjects: 0.013400 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1642.
+Total: 2.168100 ms (FindLiveObjects: 0.191200 ms CreateObjectMapping: 0.036800 ms MarkObjects: 1.920600 ms  DeleteObjects: 0.018000 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001317 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.292 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.0 MB.
+System memory in use after: 73.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1645.
+Total: 3.300600 ms (FindLiveObjects: 0.325700 ms CreateObjectMapping: 0.151400 ms MarkObjects: 2.782200 ms  DeleteObjects: 0.039000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001269 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.238 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.0 MB.
+System memory in use after: 73.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1648.
+Total: 3.483200 ms (FindLiveObjects: 0.223500 ms CreateObjectMapping: 0.043900 ms MarkObjects: 3.172900 ms  DeleteObjects: 0.040600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001468 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.720 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.0 MB.
+System memory in use after: 73.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1651.
+Total: 2.038800 ms (FindLiveObjects: 0.190500 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.795000 ms  DeleteObjects: 0.020300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001740 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.614 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.0 MB.
+System memory in use after: 73.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1654.
+Total: 3.168800 ms (FindLiveObjects: 0.269700 ms CreateObjectMapping: 0.049600 ms MarkObjects: 2.819500 ms  DeleteObjects: 0.028100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000922 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.390 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.0 MB.
+System memory in use after: 73.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1657.
+Total: 2.345700 ms (FindLiveObjects: 0.252300 ms CreateObjectMapping: 0.058000 ms MarkObjects: 2.004800 ms  DeleteObjects: 0.028000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001328 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.418 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.0 MB.
+System memory in use after: 73.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1660.
+Total: 3.010700 ms (FindLiveObjects: 0.257900 ms CreateObjectMapping: 0.042600 ms MarkObjects: 2.682000 ms  DeleteObjects: 0.025300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001695 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.296 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.0 MB.
+System memory in use after: 73.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1663.
+Total: 2.531800 ms (FindLiveObjects: 0.212300 ms CreateObjectMapping: 0.033400 ms MarkObjects: 2.267000 ms  DeleteObjects: 0.017200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1181.766312 seconds.
+  path: Assets/Prefabs/Bala.prefab
+  artifactKey: Guid(4b1b22e3f5f514645a7570c384be65c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bala.prefab using Guid(4b1b22e3f5f514645a7570c384be65c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3018a790f37d35485faa4eb3998929') in 1.386252 seconds
+  Import took 1.409305 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001579 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.281 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.0 MB.
+System memory in use after: 73.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1668.
+Total: 4.325000 ms (FindLiveObjects: 0.399700 ms CreateObjectMapping: 0.051200 ms MarkObjects: 3.844100 ms  DeleteObjects: 0.026500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001633 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.506 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.1 MB.
+System memory in use after: 73.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1672.
+Total: 2.343700 ms (FindLiveObjects: 0.272500 ms CreateObjectMapping: 0.046300 ms MarkObjects: 2.001300 ms  DeleteObjects: 0.021900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002461 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.603 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.1 MB.
+System memory in use after: 73.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1675.
+Total: 3.833400 ms (FindLiveObjects: 0.234000 ms CreateObjectMapping: 0.033500 ms MarkObjects: 3.528600 ms  DeleteObjects: 0.035400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 245.311563 seconds.
+  path: Assets/Scripts/Nodo.cs
+  artifactKey: Guid(4eb69b2c58fd50b43a012eff804f8532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Nodo.cs using Guid(4eb69b2c58fd50b43a012eff804f8532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7dabf7a6e819176f70a7739e93cbea1') in 0.147632 seconds
+  Import took 0.181457 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001673 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.483 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.1 MB.
+System memory in use after: 73.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1678.
+Total: 3.914200 ms (FindLiveObjects: 0.401700 ms CreateObjectMapping: 0.098400 ms MarkObjects: 3.384300 ms  DeleteObjects: 0.027300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 557.015435 seconds.
+  path: Assets/Scripts/Nodo.cs
+  artifactKey: Guid(4eb69b2c58fd50b43a012eff804f8532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Nodo.cs using Guid(4eb69b2c58fd50b43a012eff804f8532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c7eb81621bfb7f30db12588c321916') in 0.035875 seconds
+  Import took 0.038836 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001272 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.370 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.1 MB.
+System memory in use after: 73.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1681.
+Total: 2.051500 ms (FindLiveObjects: 0.227600 ms CreateObjectMapping: 0.036800 ms MarkObjects: 1.766900 ms  DeleteObjects: 0.018800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001504 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.213 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1685.
+Total: 2.615900 ms (FindLiveObjects: 0.428000 ms CreateObjectMapping: 0.041200 ms MarkObjects: 2.123600 ms  DeleteObjects: 0.018800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 236.110240 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(785389eda71464042a604edb466e5966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(785389eda71464042a604edb466e5966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fae5dc785c13b4d41d859a30876258') in 0.121676 seconds
+  Import took 0.308509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.663855 seconds.
+  path: Assets/Scripts/CreadorTorretas.cs
+  artifactKey: Guid(1451bd63f54066445bfb704b967ef27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CreadorTorretas.cs using Guid(1451bd63f54066445bfb704b967ef27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760a9c294a8102cdf2f662e77403ac1a') in 3.308555 seconds
+  Import took 3.424306 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001300 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.522 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1688.
+Total: 3.037200 ms (FindLiveObjects: 0.382600 ms CreateObjectMapping: 0.116000 ms MarkObjects: 2.514400 ms  DeleteObjects: 0.021800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 584.683875 seconds.
+  path: Assets/Scripts/CreadorTorretas.cs
+  artifactKey: Guid(1451bd63f54066445bfb704b967ef27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CreadorTorretas.cs using Guid(1451bd63f54066445bfb704b967ef27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f58dffe394ba7f918beaa4aa45ffe37') in 0.033458 seconds
+  Import took 0.059451 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001636 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.544 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1691.
+Total: 2.120600 ms (FindLiveObjects: 0.201400 ms CreateObjectMapping: 0.032500 ms MarkObjects: 1.867000 ms  DeleteObjects: 0.018300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001531 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.847 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1694.
+Total: 2.597800 ms (FindLiveObjects: 0.198900 ms CreateObjectMapping: 0.041300 ms MarkObjects: 2.335800 ms  DeleteObjects: 0.020200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001608 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.631 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1697.
+Total: 3.470000 ms (FindLiveObjects: 0.419200 ms CreateObjectMapping: 0.091900 ms MarkObjects: 2.930000 ms  DeleteObjects: 0.026500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002057 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.187 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1700.
+Total: 4.374400 ms (FindLiveObjects: 0.677800 ms CreateObjectMapping: 0.082600 ms MarkObjects: 3.567000 ms  DeleteObjects: 0.043400 ms)
+
