@@ -62,6 +62,9 @@ public class Torreta : MonoBehaviour
             objetivo = null;
         }
     }
+
+   
+
     void Disparar()
     {
         //Debug.Log("DISPARO");

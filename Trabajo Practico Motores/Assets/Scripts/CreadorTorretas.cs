@@ -6,11 +6,8 @@ public class CreadorTorretas : MonoBehaviour
 {
     public static CreadorTorretas instance;
     private GameObject torretaAConstruir;
-    public GameObject torretaStandard;
-    private void Start()
-    {
-        torretaAConstruir = torretaStandard;
-    }
+    
+
     private void Awake()
     {
         if (instance != null)
@@ -20,8 +17,14 @@ public class CreadorTorretas : MonoBehaviour
         }
         instance = this;
     }
+
     public GameObject ConseguirTorreta()
     {
         return torretaAConstruir;
+    }
+
+    public void ElegirTorretaAConstruir(GameObject torreta) 
+    {
+        torretaAConstruir = torreta;
     }
 }

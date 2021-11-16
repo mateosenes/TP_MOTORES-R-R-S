@@ -9,11 +9,16 @@ public class Nodo : MonoBehaviour
     private GameObject torreta;
     private Color colorInicial;
     public Vector3 posicionReal;
+    public bool permiteCrear;
+    public static int monedasARestar;
+
     private void Start()
     {
         render = GetComponent<Renderer>();
         colorInicial = render.material.color;
+        permiteCrear = false;
     }
+
     void OnMouseEnter()
     {
         render.material.color = colorSecundario;
@@ -22,14 +27,23 @@ public class Nodo : MonoBehaviour
     {
         render.material.color = colorInicial;
     }
+
     private void OnMouseDown()
     {
         if (torreta != null)
         {
-            Debug.Log("No puede construir ahí papanatas");
-            return;
+           Debug.Log("No puede construir ahí papanatas");
+           return;
         }
+       
+
         GameObject torretaAConstruir = CreadorTorretas.instance.ConseguirTorreta();
-        torreta=(GameObject)Instantiate(torretaAConstruir, transform.position+posicionReal, transform.rotation);
+        torreta = (GameObject)Instantiate(torretaAConstruir, transform.position + posicionReal, transform.rotation);
+        GameManager.monedas = GameManager.monedas - monedasARestar;
+    }
+
+    public void CambiaBool()
+    {
+        permiteCrear = true;
     }
 }
