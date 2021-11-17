@@ -6,6 +6,7 @@ public class Bala : MonoBehaviour
 {
     private Transform objetivo;
     public float velocidadDisparo=10f;
+
     void Update()
     {
         if (objetivo == null)
@@ -13,8 +14,10 @@ public class Bala : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+        
         Vector3 dir = objetivo.position - transform.position;
         float distancia = velocidadDisparo * Time.deltaTime;
+       
         if (dir.magnitude <= distancia)
         {
             GolpearObjetivo();
@@ -22,12 +25,17 @@ public class Bala : MonoBehaviour
         }
         transform.Translate(dir.normalized * distancia, Space.World);
     }
+    
     public void Perseguir(Transform _objetivo)
     {
         objetivo = _objetivo;
     }
+   
     public void GolpearObjetivo()
     {
+
         Destroy(gameObject);
     }
+    
+   
 }

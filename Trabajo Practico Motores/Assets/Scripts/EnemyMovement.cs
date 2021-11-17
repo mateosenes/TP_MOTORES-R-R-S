@@ -33,7 +33,15 @@ public class EnemyMovement : MonoBehaviour
         Debug.Log("colisiono");
         if (other.gameObject.CompareTag("End")) 
         {
-            Destroy(gameObject);
+            LLegaBaseAliada();
         }
     }
+
+    void LLegaBaseAliada()
+    {
+        GameManager.vidas--;
+        Debug.Log(GameManager.vidas);
+        Destroy(gameObject);
+    }
+
 }

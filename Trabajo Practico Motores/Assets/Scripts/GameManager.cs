@@ -12,16 +12,25 @@ public class GameManager : MonoBehaviour
     public Text monedastxt;
 
     public static int monedas = 200;
+
+    public static int vidas;
+    public int vidasIniciales;
    
 
     void Start()
     {
         monedastxt.text = monedas.ToString();
+        vidas = vidasIniciales;
     }
 
     void Update()
     {
         monedastxt.text = monedas.ToString();
+
+        if (vidas <= 0) 
+        {
+            Perder();
+        }
     }
 
     public void ComprarTorreta1() 
@@ -52,6 +61,12 @@ public class GameManager : MonoBehaviour
             Nodo.monedasARestar = 60;
             monedastxt.text = monedas.ToString();
         }
+    }
+
+    private void Perder() 
+    {
+        //aca perdes y pones todo lo q tiene q salir
+        Debug.Log("Game Over");
     }
     
 }

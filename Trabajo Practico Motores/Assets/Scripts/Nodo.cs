@@ -18,6 +18,7 @@ public class Nodo : MonoBehaviour
         colorInicial = render.material.color;
         permiteCrear = false;
     }
+   
 
     void OnMouseEnter()
     {
@@ -35,11 +36,14 @@ public class Nodo : MonoBehaviour
            Debug.Log("No puede construir ahí papanatas");
            return;
         }
-       
 
-        GameObject torretaAConstruir = CreadorTorretas.instance.ConseguirTorreta();
-        torreta = (GameObject)Instantiate(torretaAConstruir, transform.position + posicionReal, transform.rotation);
-        GameManager.monedas = GameManager.monedas - monedasARestar;
+        if (GameManager.monedas >= monedasARestar) 
+        {
+            GameObject torretaAConstruir = CreadorTorretas.instance.ConseguirTorreta();
+            torreta = (GameObject)Instantiate(torretaAConstruir, transform.position + posicionReal, transform.rotation);
+            GameManager.monedas = GameManager.monedas - monedasARestar;
+        }
+        
     }
 
     public void CambiaBool()

@@ -6,6 +6,9 @@ TagManager:
   tags:
   - End
   - Enemigo
+  - BalaTorreta1
+  - BalaTorreta2
+  - BalaTorreta3
   layers:
   - Default
   - TransparentFX
