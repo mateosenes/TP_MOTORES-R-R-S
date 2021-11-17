@@ -6,18 +6,7 @@ public class VIdaEnemigo : MonoBehaviour
 {
     public int vidaEnemigo;
 
-    void Start()
-    {
-        
-    }
-
-   
-    void Update()
-    {
-        
-    }
-
-    public void RecibirDaño(int i ) 
+    public void RecibirDaño(int i) 
     {
         vidaEnemigo -= i;
         if (vidaEnemigo <= 0) 
@@ -32,11 +21,11 @@ public class VIdaEnemigo : MonoBehaviour
         GameManager.monedas += 20; 
     }
 
-    private void OnCollisionEnter(Collision collision)
+    /*private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag== "BalaTorreta1") 
         {
             Debug.Log("Le pego");
         }
-    }
+    }*/
 }

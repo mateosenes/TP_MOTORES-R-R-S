@@ -74,7 +74,6 @@ public class Torreta : MonoBehaviour
     {
         //Debug.Log("DISPARO");
         GameObject balaDisp=(GameObject) Instantiate(bala, puntoDisparo.position, puntoDisparo.rotation);
-        balaDisp.tag = "BalaTorreta1";
         Bala disparo = balaDisp.GetComponent<Bala>();
         
         if(bala!= null)

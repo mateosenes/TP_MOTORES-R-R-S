@@ -6,6 +6,7 @@ public class Bala : MonoBehaviour
 {
     private Transform objetivo;
     public float velocidadDisparo=10f;
+    public int dañoDeBala;
 
     void Update()
     {
@@ -33,7 +34,7 @@ public class Bala : MonoBehaviour
    
     public void GolpearObjetivo()
     {
-
+        GameObject.FindObjectOfType<VIdaEnemigo>().RecibirDaño(dañoDeBala);
         Destroy(gameObject);
     }
     
