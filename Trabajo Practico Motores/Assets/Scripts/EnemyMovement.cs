@@ -6,6 +6,7 @@ public class EnemyMovement : MonoBehaviour
 {
     public float speed;
     GameObject wayPoint;
+    public GameObject efectoDestruccion1;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +41,8 @@ public class EnemyMovement : MonoBehaviour
         GameManager.vidas--;
         GeneradorOleada.enemigosVivos--;
         Debug.Log(GameManager.vidas);
+        GameObject instEfect1 = (GameObject)Instantiate(efectoDestruccion1, transform.position, transform.rotation);
+        Destroy(instEfect1, 2f);
         Destroy(gameObject);
     }
 }

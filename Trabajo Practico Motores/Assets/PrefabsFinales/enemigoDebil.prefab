@@ -101,6 +101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+  efectoDestruccion1: {fileID: 6506345738721598755, guid: d62ee6a506ddfa248bdf7cc47e944cac, type: 3}
 --- !u!114 &61468791413189229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,6 +115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaEnemigo: 5
+  efectoDestruccion: {fileID: 6506345738721598755, guid: d62ee6a506ddfa248bdf7cc47e944cac, type: 3}
 --- !u!65 &3582563071129485300
 BoxCollider:
   m_ObjectHideFlags: 0
