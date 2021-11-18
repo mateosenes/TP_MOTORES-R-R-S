@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    float speed;
+    public float speed;
     GameObject wayPoint;
 
     // Start is called before the first frame update
     void Start()
     {
-        speed = 10f;
         wayPoint = GameObject.Find("Waypoint ");
         //wayPoint = wayPoint.GetComponent<Waypoints>().GetNext(this.gameObject);
     }
@@ -27,11 +26,10 @@ public class EnemyMovement : MonoBehaviour
             wayPoint = wayPoint.GetComponent<Waypoints>().GetNext(this.gameObject);
         }
     }
-
-    void OnCollisionEnter (Collision other)
+    void OnCollisionEnter(Collision other)
     {
         Debug.Log("colisiono");
-        if (other.gameObject.CompareTag("End")) 
+        if (other.gameObject.CompareTag("End"))
         {
             LLegaBaseAliada();
         }
@@ -40,8 +38,8 @@ public class EnemyMovement : MonoBehaviour
     void LLegaBaseAliada()
     {
         GameManager.vidas--;
+        GeneradorOleada.enemigosVivos--;
         Debug.Log(GameManager.vidas);
         Destroy(gameObject);
     }
-
 }

@@ -18,14 +18,9 @@ public class VIdaEnemigo : MonoBehaviour
     private void Morir() 
     {
         Destroy(gameObject);
-        GameManager.monedas += 20; 
+        GameManager.monedas += 20;
+        GeneradorOleada.enemigosVivos--;
     }
 
-    /*private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag== "BalaTorreta1") 
-        {
-            Debug.Log("Le pego");
-        }
-    }*/
+
 }
