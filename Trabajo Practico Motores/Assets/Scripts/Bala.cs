@@ -8,6 +8,9 @@ public class Bala : MonoBehaviour
     public float velocidadDisparo=10f;
     public int dañoDeBala;
 
+    public float tiempoMax;
+    private float tiempo;
+
     void Update()
     {
         if (objetivo == null)
@@ -25,6 +28,15 @@ public class Bala : MonoBehaviour
             return;
         }
         transform.Translate(dir.normalized * distancia, Space.World);
+
+        if (this.gameObject.activeSelf)
+        {
+            tiempo += Time.deltaTime;
+            if (tiempo >= tiempoMax)
+            {
+                Desactivar();
+            }
+        }
     }
     
     public void Perseguir(Transform _objetivo)
@@ -37,6 +49,10 @@ public class Bala : MonoBehaviour
         GameObject.FindObjectOfType<VIdaEnemigo>().RecibirDaño(dañoDeBala);
         Destroy(gameObject);
     }
-    
-   
+
+    void Desactivar()
+    {
+        tiempo = 0;
+        this.gameObject.SetActive(false);
+    }
 }

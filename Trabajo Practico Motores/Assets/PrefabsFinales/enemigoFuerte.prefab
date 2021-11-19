@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  efectoDestruccion1: {fileID: 6506345738721598755, guid: d62ee6a506ddfa248bdf7cc47e944cac, type: 3}
+  efectoDestruccion1: {fileID: 5523273673686292105, guid: 815f0e15200b65840a8c4f412de481b8, type: 3}
 --- !u!114 &4278469723046728374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,4 +144,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaEnemigo: 30
-  efectoDestruccion: {fileID: 6506345738721598755, guid: d62ee6a506ddfa248bdf7cc47e944cac, type: 3}
+  efectoDestruccion: {fileID: 5523273673686292105, guid: 815f0e15200b65840a8c4f412de481b8, type: 3}

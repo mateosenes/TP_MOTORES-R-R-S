@@ -51,7 +51,7 @@ MonoBehaviour:
   torreta: {fileID: 7125276855642770633}
   velocidadGiro: 10
   cadenciaDisparo: 1
-  bala: {fileID: 2399434809773373610, guid: 4b1b22e3f5f514645a7570c384be65c9, type: 3}
+  bala: {fileID: 2891632413927245352, guid: 8779e4149c1ca2049904e98e8b4fc1b0, type: 3}
   puntoDisparo: {fileID: 7125276856219621437}
 --- !u!1 &2300777088387481051
 GameObject:
