@@ -21,10 +21,13 @@ public class GeneradorOleada : MonoBehaviour
     {
         numeroOleada = 0;
         enemigosVivos = 0;
+
+        contador = 10.5f;
     }
 
     private void Update()
     {
+
         if (enemigosVivos > 0)
         {
             return;
