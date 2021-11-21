@@ -10,7 +10,7 @@ public class ControladorCamara : MonoBehaviour
     private float velocidad;
     private float bordePantalla;
     private float ruedita;
-    private float velocidadruedita;
+    private float velocidadRuedita;
     public float minY;
     public float maxY;
 
@@ -18,11 +18,12 @@ public class ControladorCamara : MonoBehaviour
     {
         velocidad = 20f;
         bordePantalla = 10f;
-        velocidadruedita = 5f;
+        velocidadRuedita = 5f;
     }
 
     void Update()
     {
+
 
         if (Input.GetKey("w"))
         {
@@ -45,7 +46,7 @@ public class ControladorCamara : MonoBehaviour
 
         Vector3 posicion = transform.position;
 
-        posicion.y -= ruedita * 1000 * velocidadruedita * Time.deltaTime;
+        posicion.y -= ruedita * 1000 * velocidadRuedita * Time.deltaTime;
         posicion.y = Mathf.Clamp(posicion.y, minY, maxY);
 
         transform.position = posicion;
