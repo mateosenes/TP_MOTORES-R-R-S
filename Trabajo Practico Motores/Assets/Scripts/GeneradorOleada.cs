@@ -13,7 +13,8 @@ public class GeneradorOleada : MonoBehaviour
     public float tiempoEntreRondas;
     private float contador;
 
-    public Text textoContadorOleadas;
+    public Text textoContadorOleada;
+    public Text textoAviso;
 
     private int numeroOleada;
 
@@ -35,14 +36,18 @@ public class GeneradorOleada : MonoBehaviour
 
         if (contador <= 0f) 
         {
+            textoAviso.text = "AHI VIENEN!!";
+            textoContadorOleada.text = "";
             StartCoroutine(GenerarOleada());
             contador = tiempoEntreRondas;
             return;
         }
 
+        textoAviso.text = "";
         contador -= Time.deltaTime;
+        contador = Mathf.Clamp(contador, 0f, Mathf.Infinity);
 
-        textoContadorOleadas.text = Mathf.Round(contador).ToString();
+        textoContadorOleada.text = string.Format("{0:00.00}", contador);
     }
 
     IEnumerator GenerarOleada()
@@ -55,7 +60,6 @@ public class GeneradorOleada : MonoBehaviour
             yield return new WaitForSeconds(1f / oleada.promedio);
         }
 
-        Debug.Log("Orda en camino!");
         numeroOleada++;
 
         if (numeroOleada == oleadas.Length)
