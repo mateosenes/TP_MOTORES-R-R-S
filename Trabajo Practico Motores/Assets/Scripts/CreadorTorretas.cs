@@ -12,7 +12,7 @@ public class CreadorTorretas : MonoBehaviour
     {
         if (instance != null)
         {
-            Debug.LogError("Más de un GameManager");
+            //Debug.LogError("Más de un GameManager");
             return;
         }
         instance = this;

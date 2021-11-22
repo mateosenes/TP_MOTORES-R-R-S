@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -67,6 +68,5 @@ public class GameManager : MonoBehaviour
     {
         //aca perdes y pones todo lo q tiene q salir
         Debug.Log("Game Over");
-    }
-    
+    }    
 }
