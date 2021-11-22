@@ -9,6 +9,7 @@ TagManager:
   - BalaTorreta1
   - BalaTorreta2
   - BalaTorreta3
+  - Torretas
   layers:
   - Default
   - TransparentFX

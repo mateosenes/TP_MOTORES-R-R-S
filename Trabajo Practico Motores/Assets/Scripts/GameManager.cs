@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public GameObject torreta1;
     public GameObject torreta2;
     public GameObject torreta3;
+    public string tagTorretas;
 
     public Text monedastxt;
 
@@ -20,11 +21,16 @@ public class GameManager : MonoBehaviour
 
     public Image vida;
 
+    public Toggle toggleAudio;
+    AudioSource audioSource;
+
     void Start()
     {
         monedastxt.text = monedas.ToString();
         vidas = vidasIniciales;
         vidaBarra = 1000f;
+        tagTorretas = "Torretas";
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -35,6 +41,7 @@ public class GameManager : MonoBehaviour
         {
             Perder();
         }
+
     }
 
     public void ComprarTorreta1() 
@@ -77,4 +84,17 @@ public class GameManager : MonoBehaviour
     {
         vida.fillAmount -= vidas / vidaBarra;
     }
+
+    public void MuteAudio() 
+    {
+        if (toggleAudio.isOn)
+        {
+            audioSource.mute = false;
+        }
+        else if (!toggleAudio.isOn)
+        {
+            audioSource.mute = true;
+        }
+    }
+
 }

@@ -10,7 +10,7 @@ public class GeneradorOleada : MonoBehaviour
     public Oleada[] oleadas; 
     public Transform coordenadasGenerador;
 
-    public float tiempoEntreRondas;
+    public float tiempoEntreOleadas;
     private float contador;
 
     public Text textoContadorOleada;
@@ -39,15 +39,15 @@ public class GeneradorOleada : MonoBehaviour
             textoAviso.text = "AHI VIENEN!!";
             textoContadorOleada.text = "";
             StartCoroutine(GenerarOleada());
-            contador = tiempoEntreRondas;
+            contador = tiempoEntreOleadas;
             return;
         }
-
+        
         textoAviso.text = "";
         contador -= Time.deltaTime;
         contador = Mathf.Clamp(contador, 0f, Mathf.Infinity);
-
         textoContadorOleada.text = string.Format("{0:00.00}", contador);
+    
     }
 
     IEnumerator GenerarOleada()

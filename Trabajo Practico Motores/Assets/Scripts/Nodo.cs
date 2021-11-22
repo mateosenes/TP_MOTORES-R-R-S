@@ -33,7 +33,7 @@ public class Nodo : MonoBehaviour
     {
         if (torreta != null)
         {
-           Debug.Log("No puede construir ahí papanatas");
+            Destroy(GameObject.FindGameObjectWithTag("Torretas"));
            return;
         }
 
