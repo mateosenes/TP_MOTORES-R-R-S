@@ -38,7 +38,8 @@ public class EnemyMovement : MonoBehaviour
 
     void LLegaBaseAliada()
     {
-        GameManager.vidas--;
+        GameManager.vidas-=10;
+        GameObject.FindObjectOfType<GameManager>().HacerDaño();
         GeneradorOleada.enemigosVivos--;
         Debug.Log(GameManager.vidas);
         GameObject instEfect1 = (GameObject)Instantiate(efectoDestruccion1, transform.position, transform.rotation);

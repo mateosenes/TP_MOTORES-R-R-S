@@ -7,12 +7,22 @@ public class VIdaEnemigo : MonoBehaviour
     public int vidaEnemigo;
     public GameObject efectoDestruccion;
 
+    public AudioClip sonidoExploción;
+
+    AudioSource audioSource;
+
+    public void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     public void RecibirDaño(int i) 
     {
         vidaEnemigo -= i;
         if (vidaEnemigo <= 0) 
         {
             Morir();
+            audioSource.PlayOneShot(sonidoExploción);
         }
     }
 

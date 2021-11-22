@@ -14,14 +14,17 @@ public class GameManager : MonoBehaviour
 
     public static int monedas = 200;
 
-    public static int vidas;
-    public int vidasIniciales;
-   
+    public static float vidas;
+    public float vidasIniciales;
+    private float vidaBarra;
+
+    public Image vida;
 
     void Start()
     {
         monedastxt.text = monedas.ToString();
         vidas = vidasIniciales;
+        vidaBarra = 1000f;
     }
 
     void Update()
@@ -68,5 +71,10 @@ public class GameManager : MonoBehaviour
     {
         //aca perdes y pones todo lo q tiene q salir
         Debug.Log("Game Over");
-    }    
+    }
+
+    public void HacerDaño() 
+    {
+        vida.fillAmount -= vidas / vidaBarra;
+    }
 }
